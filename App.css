@@ -1,0 +1,269 @@
+.App {
+  text-align: center;
+}
+h1 {
+  background-color: antiquewhite;
+  text-shadow: 0px -4px 20px #5b5252;
+  color: azure;
+}
+body {
+  background-image: url(../src/assrts/5291450.jpg);
+
+}
+.App {
+  text-align: center;
+  
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.form {
+  text-align: center;
+
+  margin-top: 16px;
+}
+label {
+  margin-right: 26px;
+}
+input.email {
+  padding: 6px;
+  margin-left: 40px;
+}
+input[type="text"] {
+  padding: 6px;
+  margin-left: 29px;
+
+}
+input.tel {
+  /* margin-left: -74px; */
+  padding: 6px;
+  margin-left: 40px;
+
+}
+.checkbox {
+  text-align: center;
+  margin-left: 29px;
+
+  margin-top: 20px;
+
+}
+.submit {
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 29px;
+  margin-right: 29px;
+  padding: 6px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-top: 25px;
+
+}
+button {
+  padding: 8px;
+  margin-left: 29px;
+  margin-right: 29px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+  width: 97px;
+  border-radius: 9px;
+}
+
+
+button:active {
+background-color: #3e8e41;
+box-shadow: 0 0px #666;
+transform: translateY(4px);
+}
+.data {
+
+  height: 100%;
+
+  width: 50%;
+  position: relative;
+  left: 25%;
+  margin: 30px;
+  padding: 30px;
+  background-color: gray;
+  box-shadow: 10px 10px 87px #0e0c0c;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  word-break: break-word;
+  vertical-align: middle;
+  text-align: center;
+
+
+}
+.mb-3 {
+
+  font-size: 20px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+
+}
+label.form-label {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  word-break: break-word;
+  vertical-align: middle;
+  text-align: center;
+
+}
+input#exampleForm\.ControlInput1 {
+
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  word-break: break-word;
+  vertical-align: middle;
+  text-align: center;
+
+
+}
+input#exampleForm\.ControlInput1 {
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 15px;
+
+
+
+}
+textarea#exampleForm\.ControlTextarea1 {
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  word-break: break-word;
+  vertical-align: middle;
+  text-align: center;
+
+
+
+
+}
+button.btn.btn-outline-success {
+  padding: 10px;
+  width: 24%;
+  font-size: 17px;
+  font-family: fantasy;
+  border-radius: 10px;
+
+}
+button.btn.btn-outline-success:hover {
+  background-color: aqua;
+
+
+}
+
+tbody {
+
+  border: 1px solid;
+  width: 95%;
+  max-height: 89%;
+  background-color: #fff4;
+  margin: .8rem auto;
+  overflow: hidden;
+
+}
+tbody::-webkit-scrollbar-thumb {
+  border-radius: .5rem;
+  background-color: #0004;
+  visibility: hidden;
+}
+tbody:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+
+}
+
+tr {
+  border: 1px dotted;
+  height: 10px;
+
+
+}
+th {
+  width: 100%;
+  height: 10%;
+  background-color: #fff4;
+  padding: .8rem 1rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #dfd1defe;
+
+
+}
+table {
+  width: 82vw;
+  height: 90vh;
+  background-color: #fff5;
+  backdrop-filter: blur(7px);
+  box-shadow: 0.4rem .8rem #0005;
+  border-radius: .8rem;
+  overflow: hidden;
+  margin-top: 30px;
+}
+tr:nth-child(even) {
+  background-color: #0000000b;
+
+}
+tr:hover {
+  background-color: #fff6;
+}
